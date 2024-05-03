@@ -1,10 +1,13 @@
+img{
+    width: 150px;
+}
+
 header{
     background-color: #ffc1d5 ;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 
 button{
     margin-left: 40px;
@@ -13,6 +16,8 @@ button{
     border-radius: 10px;
     width: 200px;
     height: 70px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #botoes {
@@ -23,6 +28,9 @@ button{
     width: 500px;
     height:500px;
     margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: transform 1s;
 
 }
 
@@ -30,7 +38,19 @@ button{
     margin-top: 60px;
     margin-left: 70px;
     margin-right: 70px;
+    background-color: #bf9780;
+    overflow: hidden;
+    
 }
+
+img:hover { transform: scale(1.1);}   
+
+a{
+    color: white;
+}
+
+
+
 
 
 
