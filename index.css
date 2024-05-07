@@ -49,7 +49,38 @@ a{
     color: white;
 }
 
+.video{
+background-color: #ffc1d5;
+margin-top: 50px;
+margin-left: 200px;
+margin-right: 200px;
+border-radius: 20px;
+border-style: groove;
+border-color: #bf9780;
+}
 
+video{
+    width:1200px ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 115px;
+}
+
+
+footer{
+    background-color: #3c3c3c;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#facebook{
+    width: 25px;
+
+}
 
 
 
