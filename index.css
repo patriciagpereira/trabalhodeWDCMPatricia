@@ -25,9 +25,9 @@ button{
 }
 
 #fotos img{
-    width: 500px;
-    height:500px;
-    margin-left: 50px;
+    width: 30%;
+   
+   
     margin-top: 30px;
     margin-bottom: 30px;
     transition: transform 1s;
@@ -40,6 +40,8 @@ button{
     margin-right: 70px;
     background-color: #bf9780;
     overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
     
 }
 
@@ -60,10 +62,11 @@ border-color: #bf9780;
 }
 
 video{
-    width:1200px ;
+    width:80% ;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 115px;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -82,7 +85,48 @@ footer{
 
 }
 
+.slide{ 
+        width: 799px;
+        height: 533px;
+        animation-name: slide;
+        animation-duration: 40s;
+        animation-iteration-count: infinite;
+        background-size: cover;
+        margin-top: 20px;
+        margin-left: 375px;
+}
 
+@keyframes slide {
+    0%  { background-image: url('catalogo/after.jpg'); }
+    3%  { background-image: url('catalogo/after1.jpg'); }  
+    7%  { background-image: url('catalogo/after2.jpg'); }
+    10%  { background-image: url('catalogo/amendoim.jpg'); } 
+    14%  { background-image: url('catalogo/amendoim1.jpg'); }  
+    18%  { background-image: url('catalogo/amendoim2.jpg'); }
+    22%  { background-image: url('catalogo/branco.jpg'); }
+    25%  { background-image: url('catalogo/branco1.jpg'); }  
+    28%  { background-image: url('catalogo/caramelo.jpg'); }
+    31%  { background-image: url('catalogo/caramelo1.jpg'); }   
+    35%  { background-image: url('catalogo/choc.jpg'); } 
+    39%  { background-image: url('catalogo/choc1.jpg'); }  
+    43%  { background-image: url('catalogo/churro.jpg'); }
+    47%  { background-image: url('catalogo/churro1.jpg'); }   
+    51%  { background-image: url('catalogo/coco.jpg'); }  
+    55%  { background-image: url('catalogo/coco1.jpg'); } 
+    59%  { background-image: url('catalogo/kinder.jpg'); } 
+    65%  { background-image: url('catalogo/kinder1.jpg'); } 
+    69%  { background-image: url('catalogo/morango.jpg'); } 
+    73%  { background-image: url('catalogo/morango1.jpg'); } 
+    75%  { background-image: url('catalogo/negro.jpg'); } 
+    78%  { background-image: url('catalogo/negro1.jpg'); } 
+    81%  { background-image: url('catalogo/nido.jpg'); } 
+    84%  { background-image: url('catalogo/nido1.jpg'); } 
+    87%  { background-image: url('catalogo/nutella.jpg'); } 
+    90%  { background-image: url('catalogo/nutella1.jpg'); } 
+    92%  { background-image: url('catalogo/nutella2.jpg'); } 
+    96%  { background-image: url('catalogo/oreo.jpg'); }
+    100%  { background-image: url('catalogo/oreo1.jpg'); }  
+    }    
 
 
 
