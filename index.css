@@ -93,7 +93,9 @@ footer{
         animation-iteration-count: infinite;
         background-size: cover;
         margin-top: 20px;
-        margin-left: 375px;
+        margin-left: 100px;
+        display: block;
+        
 }
 
 @keyframes slide {
@@ -127,6 +129,39 @@ footer{
     96%  { background-image: url('catalogo/oreo.jpg'); }
     100%  { background-image: url('catalogo/oreo1.jpg'); }  
     }    
+
+.bordaslide {
+    background-color:#bf9780 ;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    border-radius: 10px;
+    
+}
+
+.sabores {
+    background-color: #ffc1d5;
+    color: white;
+    font-family:serif;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top:20px ;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border-style:dashed;
+}
+
+.sobre {
+    background-color:#bf9780 ;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+    font-size: 20px;
+    font-family: serif;
+}
 
 
 
